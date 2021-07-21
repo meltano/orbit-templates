@@ -9,8 +9,19 @@ jobs:
     strategy:
       matrix:
         subreddit:
+          - businessintelligence
+          - database
           - dataengineering
+          - dataisbeautiful
+          - datasets
+          - datascience
+          - etl
+          - learnmachinelearning
+          - learnpython
+          - machinelearning
           - meltano
+          - sql
+          - visualization
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
