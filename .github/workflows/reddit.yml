@@ -19,7 +19,6 @@ jobs:
           - learnmachinelearning
           - learnpython
           - machinelearning
-          - meltano
           - sql
           - visualization
     steps:
